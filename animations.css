@@ -1,6 +1,6 @@
 .container {
-    height: 100vh;
-    width: 100vw;
+    height: 98vh;
+    width: 98vw;
 
     background-color: antiquewhite;
 }
@@ -15,4 +15,28 @@
     height: 200px;
     width: 200px;
     background-color: lightcoral;
+
+    animation: move 1s infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateY(100%);
+    }
+
+    50% {
+        transform: translateX(100%) translateY(100%);
+    }
+
+    75% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
 }

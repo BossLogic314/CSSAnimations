@@ -18,7 +18,7 @@
 
     background-color: rgb(95, 154, 212);
 
-    animation: bounce 1s ease-in infinite both;
+    animation: bounce 1s ease-in infinite alternate;
 }
 
 @keyframes bounce {
@@ -28,18 +28,18 @@
     }
 
     25% {
-        transform: translateY(-100%);
+        transform: translateY(-50%);
     }
 
     50% {
-        transform: translateY(-200%);
+        transform: translateY(-100%);
     }
 
     75% {
-        transform: translateY(-300%);
+        transform: translateY(-150%);
     }
 
     100% {
-        transform: translateY(-400%);
+        transform: translateY(-200%);
     }
 }

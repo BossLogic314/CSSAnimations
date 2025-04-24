@@ -1,0 +1,45 @@
+.container {
+    height: 98vh;
+    width: 98vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(237, 183, 237);
+}
+
+.ball {
+    height: 80px;
+    width: 80px;
+
+    border-radius: 50%;
+
+    background-color: rgb(95, 154, 212);
+
+    animation: bounce 1s ease-in infinite both;
+}
+
+@keyframes bounce {
+
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(-100%);
+    }
+
+    50% {
+        transform: translateY(-200%);
+    }
+
+    75% {
+        transform: translateY(-300%);
+    }
+
+    100% {
+        transform: translateY(-400%);
+    }
+}

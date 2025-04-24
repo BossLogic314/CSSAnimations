@@ -18,7 +18,7 @@
 
     background-color: rgb(95, 154, 212);
 
-    animation: bounce 1s ease-in infinite alternate;
+    animation: bounce 1s linear infinite alternate;
 }
 
 @keyframes bounce {
